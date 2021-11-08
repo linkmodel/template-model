@@ -1,10 +1,10 @@
-model_organization:           # Name of github individual / organization where this clone exists (e.g. linkml / mygithub)
-model_name:                   # Name of target repository (e.g. my-wonderful-model)
-root_schema: sample_model     # Name of the base schema file (w/o .yaml)
+model_organization: linkmodel
+model_name: template-model
+root_schema: template_model     # Name of the base schema file (w/o .yaml)
 model_root_class: Person      # Name of the base class in the schema for testing
 
-model_author:                 # Your name
-model_author_email:           # Your email
+model_author: Jane Doe
+model_author_email: jane.doe@example.com
 model_synopsis: A cool model  # One liner about the model
 model_description: |-         # Longer description of the model
   This is a really nice model that

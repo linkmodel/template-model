@@ -1,0 +1,75 @@
+{
+   "$defs": {
+      "FriendlyPerson": {
+         "additionalProperties": false,
+         "description": "A person who actually knows someone",
+         "properties": {
+            "first_name": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "id": {
+               "type": "string"
+            },
+            "knows": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "last_name": {
+               "type": "string"
+            }
+         },
+         "required": [
+            "id",
+            "first_name",
+            "last_name",
+            "knows"
+         ],
+         "title": "FriendlyPerson",
+         "type": "object"
+      },
+      "Person": {
+         "additionalProperties": false,
+         "description": "Minimal information about a person",
+         "properties": {
+            "first_name": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "id": {
+               "type": "string"
+            },
+            "knows": {
+               "items": {
+                  "type": "string"
+               },
+               "type": "array"
+            },
+            "last_name": {
+               "type": "string"
+            }
+         },
+         "required": [
+            "id",
+            "first_name",
+            "last_name"
+         ],
+         "title": "Person",
+         "type": "object"
+      }
+   },
+   "$id": "https://example.org/linkml/hello-world",
+   "$schema": "http://json-schema.org/draft-07/schema#",
+   "additionalProperties": true,
+   "properties": {},
+   "required": [],
+   "title": "hello-world",
+   "type": "object"
+}
+
